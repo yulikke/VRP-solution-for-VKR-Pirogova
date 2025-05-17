@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cab987902a488ab9311ae52e8b5b7791 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cab987902a488ab9311ae52e8b5b7791" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cab987902a488ab9311ae52e8b5b7791 = L.map(
+                "map_cab987902a488ab9311ae52e8b5b7791",
+                {
+                    center: [56.55675, 38.656099999999995],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d4f41f4dbfc6c3d84b7578e3f2eb8047 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d4f41f4dbfc6c3d84b7578e3f2eb8047.addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+            var circle_marker_0eed44a8df52936af0e5e9fb2f943037 = L.circleMarker(
+                [59.95823, 30.567652],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d0383c34b695547fb179968440b33b32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8422dc9f66be03af5f848ddedeaf285f = $(`<div id="html_8422dc9f66be03af5f848ddedeaf285f" style="width: 100.0%; height: 100.0%;">Клиент: 1<br>Объем: 1600.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_d0383c34b695547fb179968440b33b32.setContent(html_8422dc9f66be03af5f848ddedeaf285f);
+            
+        
+
+        circle_marker_0eed44a8df52936af0e5e9fb2f943037.bindPopup(popup_d0383c34b695547fb179968440b33b32)
+        ;
+
+        
+    
+    
+            circle_marker_0eed44a8df52936af0e5e9fb2f943037.bindTooltip(
+                `<div>
+                     1 (1600.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b666061e29b627af643279b1ad93686 = L.circleMarker(
+                [59.930877, 30.516069],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_60fc98832cc2ae2aaa282105930f7b71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38f43000f15ca9b5cdbb2e36a23de5c3 = $(`<div id="html_38f43000f15ca9b5cdbb2e36a23de5c3" style="width: 100.0%; height: 100.0%;">Клиент: 2<br>Объем: 1280.0000000000002 тн<br>Завод: Волхов</div>`)[0];
+                popup_60fc98832cc2ae2aaa282105930f7b71.setContent(html_38f43000f15ca9b5cdbb2e36a23de5c3);
+            
+        
+
+        circle_marker_4b666061e29b627af643279b1ad93686.bindPopup(popup_60fc98832cc2ae2aaa282105930f7b71)
+        ;
+
+        
+    
+    
+            circle_marker_4b666061e29b627af643279b1ad93686.bindTooltip(
+                `<div>
+                     2 (1280.0000000000002 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff73c411335109b97b0c8a97fa366ac9 = L.circleMarker(
+                [59.865077, 30.522283],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_e97fd95278d5965a17452d765f783bee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da379ba26dc5d1611a39c06310ea5a14 = $(`<div id="html_da379ba26dc5d1611a39c06310ea5a14" style="width: 100.0%; height: 100.0%;">Клиент: 3<br>Объем: 1040.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_e97fd95278d5965a17452d765f783bee.setContent(html_da379ba26dc5d1611a39c06310ea5a14);
+            
+        
+
+        circle_marker_ff73c411335109b97b0c8a97fa366ac9.bindPopup(popup_e97fd95278d5965a17452d765f783bee)
+        ;
+
+        
+    
+    
+            circle_marker_ff73c411335109b97b0c8a97fa366ac9.bindTooltip(
+                `<div>
+                     3 (1040.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0712efd3d0008e36ad657de19d4e9627 = L.circleMarker(
+                [59.875049, 30.6807],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_705de202c6a0d3e6cda12b7be38112b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9af15267a29c821a077178c176eb9455 = $(`<div id="html_9af15267a29c821a077178c176eb9455" style="width: 100.0%; height: 100.0%;">Клиент: 4<br>Объем: 1000.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_705de202c6a0d3e6cda12b7be38112b4.setContent(html_9af15267a29c821a077178c176eb9455);
+            
+        
+
+        circle_marker_0712efd3d0008e36ad657de19d4e9627.bindPopup(popup_705de202c6a0d3e6cda12b7be38112b4)
+        ;
+
+        
+    
+    
+            circle_marker_0712efd3d0008e36ad657de19d4e9627.bindTooltip(
+                `<div>
+                     4 (1000.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d0001755f6ea4dced8459f016fd180d = L.circleMarker(
+                [59.889328, 30.685701],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_eb7bd6453267c068868192e7a8e218ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9ecf20109948295777db087a4ea3dbb = $(`<div id="html_c9ecf20109948295777db087a4ea3dbb" style="width: 100.0%; height: 100.0%;">Клиент: 5<br>Объем: 1400.0000000000002 тн<br>Завод: Волхов</div>`)[0];
+                popup_eb7bd6453267c068868192e7a8e218ea.setContent(html_c9ecf20109948295777db087a4ea3dbb);
+            
+        
+
+        circle_marker_7d0001755f6ea4dced8459f016fd180d.bindPopup(popup_eb7bd6453267c068868192e7a8e218ea)
+        ;
+
+        
+    
+    
+            circle_marker_7d0001755f6ea4dced8459f016fd180d.bindTooltip(
+                `<div>
+                     5 (1400.0000000000002 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_382f85c0cb36993f28d1e8c340e38235 = L.circleMarker(
+                [59.827155, 30.356416],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d9edf75fa71602dff6f91935d530cf2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33b02d04180203881c468ce2b520193b = $(`<div id="html_33b02d04180203881c468ce2b520193b" style="width: 100.0%; height: 100.0%;">Клиент: 6<br>Объем: 1040.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_d9edf75fa71602dff6f91935d530cf2d.setContent(html_33b02d04180203881c468ce2b520193b);
+            
+        
+
+        circle_marker_382f85c0cb36993f28d1e8c340e38235.bindPopup(popup_d9edf75fa71602dff6f91935d530cf2d)
+        ;
+
+        
+    
+    
+            circle_marker_382f85c0cb36993f28d1e8c340e38235.bindTooltip(
+                `<div>
+                     6 (1040.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45cf54f56ba20043aecdb477c9bfa3de = L.circleMarker(
+                [59.846883, 30.290929],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_2b5082e86afc32c112875f3b04446272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a56ecd4d03d691fcbafb874af822c2f = $(`<div id="html_5a56ecd4d03d691fcbafb874af822c2f" style="width: 100.0%; height: 100.0%;">Клиент: 7<br>Объем: 80.00000000000001 тн<br>Завод: Волхов</div>`)[0];
+                popup_2b5082e86afc32c112875f3b04446272.setContent(html_5a56ecd4d03d691fcbafb874af822c2f);
+            
+        
+
+        circle_marker_45cf54f56ba20043aecdb477c9bfa3de.bindPopup(popup_2b5082e86afc32c112875f3b04446272)
+        ;
+
+        
+    
+    
+            circle_marker_45cf54f56ba20043aecdb477c9bfa3de.bindTooltip(
+                `<div>
+                     7 (80.00000000000001 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1ee03f2cacfac757140bcc68b4eb5f7 = L.circleMarker(
+                [59.807634, 30.564843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_4f382410c865607af813008c1da22421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d332c358e124ce06864d29916d3926f6 = $(`<div id="html_d332c358e124ce06864d29916d3926f6" style="width: 100.0%; height: 100.0%;">Клиент: 8<br>Объем: 480.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_4f382410c865607af813008c1da22421.setContent(html_d332c358e124ce06864d29916d3926f6);
+            
+        
+
+        circle_marker_e1ee03f2cacfac757140bcc68b4eb5f7.bindPopup(popup_4f382410c865607af813008c1da22421)
+        ;
+
+        
+    
+    
+            circle_marker_e1ee03f2cacfac757140bcc68b4eb5f7.bindTooltip(
+                `<div>
+                     8 (480.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de10609eb912fdee7a8b242ea5d30961 = L.circleMarker(
+                [59.910718, 30.455363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_221113bb94c2f274cf2cdcd1954c6556 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2c32a5c57b4d71c5c59234aeced1621 = $(`<div id="html_a2c32a5c57b4d71c5c59234aeced1621" style="width: 100.0%; height: 100.0%;">Клиент: 9<br>Объем: 960.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_221113bb94c2f274cf2cdcd1954c6556.setContent(html_a2c32a5c57b4d71c5c59234aeced1621);
+            
+        
+
+        circle_marker_de10609eb912fdee7a8b242ea5d30961.bindPopup(popup_221113bb94c2f274cf2cdcd1954c6556)
+        ;
+
+        
+    
+    
+            circle_marker_de10609eb912fdee7a8b242ea5d30961.bindTooltip(
+                `<div>
+                     9 (960.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8203d4d5419b27c36f20bce5ce7ef15 = L.circleMarker(
+                [59.895592, 30.499339],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_e35482c894801a63005f23359abd056f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_139446cbcf4a6411d34d72e54753b8e2 = $(`<div id="html_139446cbcf4a6411d34d72e54753b8e2" style="width: 100.0%; height: 100.0%;">Клиент: 10<br>Объем: 1040.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_e35482c894801a63005f23359abd056f.setContent(html_139446cbcf4a6411d34d72e54753b8e2);
+            
+        
+
+        circle_marker_b8203d4d5419b27c36f20bce5ce7ef15.bindPopup(popup_e35482c894801a63005f23359abd056f)
+        ;
+
+        
+    
+    
+            circle_marker_b8203d4d5419b27c36f20bce5ce7ef15.bindTooltip(
+                `<div>
+                     10 (1040.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83cb1786f17a4f326c18a9ff66a91dff = L.circleMarker(
+                [59.814367, 30.477447],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_fb1ed67659b4ca59bbda7e43c40fb0ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bda1878fb41dad63947c14be300c8ca = $(`<div id="html_5bda1878fb41dad63947c14be300c8ca" style="width: 100.0%; height: 100.0%;">Клиент: 11<br>Объем: 1000.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_fb1ed67659b4ca59bbda7e43c40fb0ff.setContent(html_5bda1878fb41dad63947c14be300c8ca);
+            
+        
+
+        circle_marker_83cb1786f17a4f326c18a9ff66a91dff.bindPopup(popup_fb1ed67659b4ca59bbda7e43c40fb0ff)
+        ;
+
+        
+    
+    
+            circle_marker_83cb1786f17a4f326c18a9ff66a91dff.bindTooltip(
+                `<div>
+                     11 (1000.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5ee7332660d6dc6543e80d6b6171db1 = L.circleMarker(
+                [59.988685, 30.554733],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_e3db0c08c2770fbdc3c1e5345fb1dba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16cb15d937d8443dbe8cee8405a20ddc = $(`<div id="html_16cb15d937d8443dbe8cee8405a20ddc" style="width: 100.0%; height: 100.0%;">Клиент: 12<br>Объем: 480.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_e3db0c08c2770fbdc3c1e5345fb1dba4.setContent(html_16cb15d937d8443dbe8cee8405a20ddc);
+            
+        
+
+        circle_marker_f5ee7332660d6dc6543e80d6b6171db1.bindPopup(popup_e3db0c08c2770fbdc3c1e5345fb1dba4)
+        ;
+
+        
+    
+    
+            circle_marker_f5ee7332660d6dc6543e80d6b6171db1.bindTooltip(
+                `<div>
+                     12 (480.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37995630006df1b19f4232b764acc550 = L.circleMarker(
+                [60.020351, 30.453456],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_3d9ba4259aacae582bbb0ed4ce0d1a70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_713d71a960c9eda4baf095bd889b6485 = $(`<div id="html_713d71a960c9eda4baf095bd889b6485" style="width: 100.0%; height: 100.0%;">Клиент: 13<br>Объем: 800.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_3d9ba4259aacae582bbb0ed4ce0d1a70.setContent(html_713d71a960c9eda4baf095bd889b6485);
+            
+        
+
+        circle_marker_37995630006df1b19f4232b764acc550.bindPopup(popup_3d9ba4259aacae582bbb0ed4ce0d1a70)
+        ;
+
+        
+    
+    
+            circle_marker_37995630006df1b19f4232b764acc550.bindTooltip(
+                `<div>
+                     13 (800.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd22effdb1bf89009c2ebce3cda5deb9 = L.circleMarker(
+                [60.056871, 30.416441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d95744fec279be5584434952de1c182f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efd9bb4fa22fd30bd53c34a9da9cd000 = $(`<div id="html_efd9bb4fa22fd30bd53c34a9da9cd000" style="width: 100.0%; height: 100.0%;">Клиент: 14<br>Объем: 800.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_d95744fec279be5584434952de1c182f.setContent(html_efd9bb4fa22fd30bd53c34a9da9cd000);
+            
+        
+
+        circle_marker_dd22effdb1bf89009c2ebce3cda5deb9.bindPopup(popup_d95744fec279be5584434952de1c182f)
+        ;
+
+        
+    
+    
+            circle_marker_dd22effdb1bf89009c2ebce3cda5deb9.bindTooltip(
+                `<div>
+                     14 (800.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_38ab3a8a623cf09b89d94494f076b854 = L.circleMarker(
+                [59.972197, 30.392278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d903c5d98d92f4058f621a605c6f4bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44d7321c165274e0d4600f9e7a594ab0 = $(`<div id="html_44d7321c165274e0d4600f9e7a594ab0" style="width: 100.0%; height: 100.0%;">Клиент: 15<br>Объем: 800.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_d903c5d98d92f4058f621a605c6f4bf1.setContent(html_44d7321c165274e0d4600f9e7a594ab0);
+            
+        
+
+        circle_marker_38ab3a8a623cf09b89d94494f076b854.bindPopup(popup_d903c5d98d92f4058f621a605c6f4bf1)
+        ;
+
+        
+    
+    
+            circle_marker_38ab3a8a623cf09b89d94494f076b854.bindTooltip(
+                `<div>
+                     15 (800.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dcfe59434f685369ee8db85f79b27308 = L.circleMarker(
+                [60.091296, 30.324417],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d752b97b2c0f91cb4b88ed49fb5bc417 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93ee2464210b4a5fa390ca29469882ff = $(`<div id="html_93ee2464210b4a5fa390ca29469882ff" style="width: 100.0%; height: 100.0%;">Клиент: 16<br>Объем: 800.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_d752b97b2c0f91cb4b88ed49fb5bc417.setContent(html_93ee2464210b4a5fa390ca29469882ff);
+            
+        
+
+        circle_marker_dcfe59434f685369ee8db85f79b27308.bindPopup(popup_d752b97b2c0f91cb4b88ed49fb5bc417)
+        ;
+
+        
+    
+    
+            circle_marker_dcfe59434f685369ee8db85f79b27308.bindTooltip(
+                `<div>
+                     16 (800.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07d13a059f6f1a6a197b01a52fbea23e = L.circleMarker(
+                [59.852846, 30.281279],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_4763a8464a1417099c482c12a6dd37a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdae5ca52c6294842b1d58371e10f8be = $(`<div id="html_cdae5ca52c6294842b1d58371e10f8be" style="width: 100.0%; height: 100.0%;">Клиент: 17<br>Объем: 1500.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_4763a8464a1417099c482c12a6dd37a0.setContent(html_cdae5ca52c6294842b1d58371e10f8be);
+            
+        
+
+        circle_marker_07d13a059f6f1a6a197b01a52fbea23e.bindPopup(popup_4763a8464a1417099c482c12a6dd37a0)
+        ;
+
+        
+    
+    
+            circle_marker_07d13a059f6f1a6a197b01a52fbea23e.bindTooltip(
+                `<div>
+                     17 (1500.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e80e06c15703a7ba84bae12f85f474ae = L.circleMarker(
+                [59.820278, 30.311871],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_0eb6c4c9ecf9c3a90d7bf28c1f930628 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c38fd42ebc56514b70d151c40a208af8 = $(`<div id="html_c38fd42ebc56514b70d151c40a208af8" style="width: 100.0%; height: 100.0%;">Клиент: 18<br>Объем: 1300.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_0eb6c4c9ecf9c3a90d7bf28c1f930628.setContent(html_c38fd42ebc56514b70d151c40a208af8);
+            
+        
+
+        circle_marker_e80e06c15703a7ba84bae12f85f474ae.bindPopup(popup_0eb6c4c9ecf9c3a90d7bf28c1f930628)
+        ;
+
+        
+    
+    
+            circle_marker_e80e06c15703a7ba84bae12f85f474ae.bindTooltip(
+                `<div>
+                     18 (1300.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0432fcf0439c1a86510fb2e98cae805 = L.circleMarker(
+                [59.844741, 30.29935],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_79b9fadfdaab1914d634279827897ccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_642caea866593f2bb03830e459d4b8f4 = $(`<div id="html_642caea866593f2bb03830e459d4b8f4" style="width: 100.0%; height: 100.0%;">Клиент: 19<br>Объем: 1300.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_79b9fadfdaab1914d634279827897ccd.setContent(html_642caea866593f2bb03830e459d4b8f4);
+            
+        
+
+        circle_marker_c0432fcf0439c1a86510fb2e98cae805.bindPopup(popup_79b9fadfdaab1914d634279827897ccd)
+        ;
+
+        
+    
+    
+            circle_marker_c0432fcf0439c1a86510fb2e98cae805.bindTooltip(
+                `<div>
+                     19 (1300.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1b5c05fde8a4009da9d054145c42692 = L.circleMarker(
+                [59.842152, 30.210145],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_309dd09eb74a12ff07e10fe45a68ae1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2b5865b83c7f5a293201ce4289ab3d8 = $(`<div id="html_d2b5865b83c7f5a293201ce4289ab3d8" style="width: 100.0%; height: 100.0%;">Клиент: 20<br>Объем: 1000.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_309dd09eb74a12ff07e10fe45a68ae1b.setContent(html_d2b5865b83c7f5a293201ce4289ab3d8);
+            
+        
+
+        circle_marker_e1b5c05fde8a4009da9d054145c42692.bindPopup(popup_309dd09eb74a12ff07e10fe45a68ae1b)
+        ;
+
+        
+    
+    
+            circle_marker_e1b5c05fde8a4009da9d054145c42692.bindTooltip(
+                `<div>
+                     20 (1000.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a06d4e0e2beabde255b6f595bfb60f2 = L.circleMarker(
+                [59.823618, 30.359249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_ee6cbe28b731c6313053f6335a4b7ffb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b6371b41faf4cc8ca82aee64a7052b6 = $(`<div id="html_0b6371b41faf4cc8ca82aee64a7052b6" style="width: 100.0%; height: 100.0%;">Клиент: 21<br>Объем: 600.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_ee6cbe28b731c6313053f6335a4b7ffb.setContent(html_0b6371b41faf4cc8ca82aee64a7052b6);
+            
+        
+
+        circle_marker_4a06d4e0e2beabde255b6f595bfb60f2.bindPopup(popup_ee6cbe28b731c6313053f6335a4b7ffb)
+        ;
+
+        
+    
+    
+            circle_marker_4a06d4e0e2beabde255b6f595bfb60f2.bindTooltip(
+                `<div>
+                     21 (600.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d90bf082e9fb5f320086ae2d7770db42 = L.circleMarker(
+                [59.808688, 30.394579],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_08d2be124fd0e7d7672372543340b0ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e632e556c07987f60c439cf1b459644 = $(`<div id="html_9e632e556c07987f60c439cf1b459644" style="width: 100.0%; height: 100.0%;">Клиент: 22<br>Объем: 1200.0 тн<br>Завод: Волхов</div>`)[0];
+                popup_08d2be124fd0e7d7672372543340b0ac.setContent(html_9e632e556c07987f60c439cf1b459644);
+            
+        
+
+        circle_marker_d90bf082e9fb5f320086ae2d7770db42.bindPopup(popup_08d2be124fd0e7d7672372543340b0ac)
+        ;
+
+        
+    
+    
+            circle_marker_d90bf082e9fb5f320086ae2d7770db42.bindTooltip(
+                `<div>
+                     22 (1200.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc79fe03818a9e733ce4a4c586f220c4 = L.circleMarker(
+                [53.1958, 45.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_88e6a6e92fcd547c1a3ca28aed48c3b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7439b2f9673198707345f6c765a9067f = $(`<div id="html_7439b2f9673198707345f6c765a9067f" style="width: 100.0%; height: 100.0%;">Клиент: 0<br>Объем: 0.0 тн<br>Завод: Пенза</div>`)[0];
+                popup_88e6a6e92fcd547c1a3ca28aed48c3b4.setContent(html_7439b2f9673198707345f6c765a9067f);
+            
+        
+
+        circle_marker_bc79fe03818a9e733ce4a4c586f220c4.bindPopup(popup_88e6a6e92fcd547c1a3ca28aed48c3b4)
+        ;
+
+        
+    
+    
+            circle_marker_bc79fe03818a9e733ce4a4c586f220c4.bindTooltip(
+                `<div>
+                     0 (0.0 тн)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d41933cadffb8a635d1b41541f00ab99 = L.marker(
+                [59.9177, 32.3122],
+                {
+}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+            var icon_e416818b3884b8b245d83f58774e4375 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5974e78e9a31effd8d8a50d45b8677c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e41ead92c6bd42308e76feb29970ac9 = $(`<div id="html_8e41ead92c6bd42308e76feb29970ac9" style="width: 100.0%; height: 100.0%;">Завод: Волхов</div>`)[0];
+                popup_5974e78e9a31effd8d8a50d45b8677c2.setContent(html_8e41ead92c6bd42308e76feb29970ac9);
+            
+        
+
+        marker_d41933cadffb8a635d1b41541f00ab99.bindPopup(popup_5974e78e9a31effd8d8a50d45b8677c2)
+        ;
+
+        
+    
+    
+            marker_d41933cadffb8a635d1b41541f00ab99.bindTooltip(
+                `<div>
+                     Завод Волхов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d41933cadffb8a635d1b41541f00ab99.setIcon(icon_e416818b3884b8b245d83f58774e4375);
+            
+    
+            var marker_6ea395c7fe384d6ae97e41401487d7c0 = L.marker(
+                [53.1958, 45.0],
+                {
+}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+            var icon_e326f11dcb78094ff786dc69aea8cd66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3059b3353582ebfcc87b46dba2eb8898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_887df53e80805fec0c426d86f25cc390 = $(`<div id="html_887df53e80805fec0c426d86f25cc390" style="width: 100.0%; height: 100.0%;">Завод: Пенза</div>`)[0];
+                popup_3059b3353582ebfcc87b46dba2eb8898.setContent(html_887df53e80805fec0c426d86f25cc390);
+            
+        
+
+        marker_6ea395c7fe384d6ae97e41401487d7c0.bindPopup(popup_3059b3353582ebfcc87b46dba2eb8898)
+        ;
+
+        
+    
+    
+            marker_6ea395c7fe384d6ae97e41401487d7c0.bindTooltip(
+                `<div>
+                     Завод Пенза
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ea395c7fe384d6ae97e41401487d7c0.setIcon(icon_e326f11dcb78094ff786dc69aea8cd66);
+            
+    
+            var poly_line_e2bb94a0c11b1b087ca5b2c9c7cf4f77 = L.polyline(
+                [[59.9177, 32.3122], [59.889328, 30.685701], [59.875049, 30.6807], [59.895592, 30.499339], [59.865077, 30.522283], [59.827155, 30.356416], [59.808688, 30.394579], [59.9177, 32.3122]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_e3a90c60f3cc806eae7c6d229d77f673 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b7734187e1b0150d7324638a454ae64 = $(`<div id="html_8b7734187e1b0150d7324638a454ae64" style="width: 100.0%; height: 100.0%;">Маршрут 1</div>`)[0];
+                popup_e3a90c60f3cc806eae7c6d229d77f673.setContent(html_8b7734187e1b0150d7324638a454ae64);
+            
+        
+
+        poly_line_e2bb94a0c11b1b087ca5b2c9c7cf4f77.bindPopup(popup_e3a90c60f3cc806eae7c6d229d77f673)
+        ;
+
+        
+    
+    
+            poly_line_e2bb94a0c11b1b087ca5b2c9c7cf4f77.bindTooltip(
+                `<div>
+                     Путь 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_67b9447c75194189d8b20bb889dc5893 = L.polyline(
+                [[59.9177, 32.3122], [59.95823, 30.567652], [60.056871, 30.416441], [60.091296, 30.324417], [60.020351, 30.453456], [59.930877, 30.516069], [59.988685, 30.554733], [59.972197, 30.392278], [59.910718, 30.455363], [59.9177, 32.3122]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_6d4f2e704c62a9c911c276b9ccdc7d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f09777b3bd8513d76726ac806b237e18 = $(`<div id="html_f09777b3bd8513d76726ac806b237e18" style="width: 100.0%; height: 100.0%;">Маршрут 2</div>`)[0];
+                popup_6d4f2e704c62a9c911c276b9ccdc7d87.setContent(html_f09777b3bd8513d76726ac806b237e18);
+            
+        
+
+        poly_line_67b9447c75194189d8b20bb889dc5893.bindPopup(popup_6d4f2e704c62a9c911c276b9ccdc7d87)
+        ;
+
+        
+    
+    
+            poly_line_67b9447c75194189d8b20bb889dc5893.bindTooltip(
+                `<div>
+                     Путь 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2c16c0b3383a9db658b741308f2e1e5d = L.polyline(
+                [[59.9177, 32.3122], [59.814367, 30.477447], [59.807634, 30.564843], [59.823618, 30.359249], [59.844741, 30.29935], [59.846883, 30.290929], [59.852846, 30.281279], [59.842152, 30.210145], [59.820278, 30.311871], [59.9177, 32.3122]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+        
+    
+        var popup_d366441f9cd30103cabe092d5177f1ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03d6bf16b80182a42c8bbb44697e6cb3 = $(`<div id="html_03d6bf16b80182a42c8bbb44697e6cb3" style="width: 100.0%; height: 100.0%;">Маршрут 3</div>`)[0];
+                popup_d366441f9cd30103cabe092d5177f1ce.setContent(html_03d6bf16b80182a42c8bbb44697e6cb3);
+            
+        
+
+        poly_line_2c16c0b3383a9db658b741308f2e1e5d.bindPopup(popup_d366441f9cd30103cabe092d5177f1ce)
+        ;
+
+        
+    
+    
+            poly_line_2c16c0b3383a9db658b741308f2e1e5d.bindTooltip(
+                `<div>
+                     Путь 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var layer_control_a327bfae19c280fa877ffe34589e4018_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d4f41f4dbfc6c3d84b7578e3f2eb8047,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_a327bfae19c280fa877ffe34589e4018 = L.control.layers(
+                layer_control_a327bfae19c280fa877ffe34589e4018_layers.base_layers,
+                layer_control_a327bfae19c280fa877ffe34589e4018_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_cab987902a488ab9311ae52e8b5b7791);
+
+        
+</script>
+</html>
